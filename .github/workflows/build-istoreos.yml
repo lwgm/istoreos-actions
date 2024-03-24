@@ -27,7 +27,7 @@ env:
 jobs:
   build:
     # runs-on: ${{ matrix.os }}
-    runs-on: [unraid]
+    runs-on: [ubuntu2204]
     strategy:
       matrix:
         REPO_BRANCH:
