@@ -23,6 +23,7 @@ env:
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
   GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+  FORCE_UNSAFE_CONFIGURE: 1
 
 jobs:
   build:
