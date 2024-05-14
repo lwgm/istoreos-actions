@@ -88,6 +88,7 @@ jobs:
         sudo -E apt-get -qq clean
         echo "------------------------------- 设置工作目录及时区 -------------------------------"
         # sudo timedatectl set-timezone "$TZ"
+        sudo rm -rf /workdir
         sudo mkdir -p /workdir
         sudo chown $USER:$GROUPS /workdir
 
